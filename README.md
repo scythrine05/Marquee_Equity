@@ -1,6 +1,6 @@
-# Bookz - Marquee Entity Assigment
+# Bookz - Marquee Equity Assigment
 
-Bookz is online book web applicaton made as an assignment for [Marquee Entity](https://marquee-equity.com).
+Bookz is online book web applicaton made as an assignment for [Marquee Equity](https://marquee-equity.com).
 
 ## Features
 
