@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { useBooks } from "../context/Book.context";
 
 //Components
@@ -20,7 +20,7 @@ export default function Home() {
         <span>oo.</span>
         <div className="options">
           <Search />
-          <Link to="/self">
+          <Link to="/shelf">
             <span className="pi pi-bookmark" id="self-icon"></span>
           </Link>
         </div>

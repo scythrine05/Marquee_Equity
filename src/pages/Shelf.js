@@ -1,10 +1,10 @@
-import React, { Fragment, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 //Layout
 import Grid from "../layout/Grid/Grid";
 
-const Bookmarks = () => {
+const Shelf = () => {
   const [bookmarks, setBookmarks] = useState([]);
 
   useEffect(() => {
@@ -19,9 +19,9 @@ const Bookmarks = () => {
           <div className="pi pi-arrow-circle-left" id="back-icon"></div>
         </Link>
         <h1>
-          Y<span>ou</span>r S<span>el</span>f<span>.</span>
+          M<span>y</span> Sh<span>el</span>f<span>.</span>
         </h1>
-        <span>Self.</span>
+        <span>Shelf.</span>
       </header>
       {bookmarks && bookmarks.length ? (
         <Grid books={bookmarks} loading={false} />
@@ -34,4 +34,4 @@ const Bookmarks = () => {
   );
 };
 
-export default Bookmarks;
+export default Shelf;

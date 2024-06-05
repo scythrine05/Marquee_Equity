@@ -6,7 +6,7 @@ Bookz is online book web applicaton made as an assignment for [Marquee Equity](h
 
 - React Fetch from [Open Library API](https://openlibrary.org/search.json?q=YOUR_QUERY&limit=10&page=1) with Debouncing Search feature.
 
-- Personal Book-Self using Browser Local Storage.
+- Personal BookShelf using Browser Local Storage.
 
 - React Context API is used for State Management.
 
