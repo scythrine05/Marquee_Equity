@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "../../components/Card/Card";
+
+//Components
 import SkeletonCard from "../../components/Skeleton/Skeleton";
 
 import "./Grid.css";
