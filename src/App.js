@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import AllRoutes from "./AllRoutes";
+import "primeicons/primeicons.css";
+import { BookProvider } from "./context/Book.context";
+
+import "./App.css";
 
 function App() {
+  useEffect(() => {}, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BookProvider>
+    <Router>
+      <div className="App">
+        <AllRoutes />
+      </div>
+    </Router>
+    </BookProvider>
   );
 }
 

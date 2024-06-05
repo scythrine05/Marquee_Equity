@@ -1,0 +1,40 @@
+.card {
+  border: 1px solid #eeeeee;
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+}
+
+.bookmark {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.bookmark span {
+  cursor: pointer;
+}
+
+.card h3 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #5d3fd3;
+}
+
+.card img {
+  width: 180px;
+  height: 270px;
+  border-radius: 6px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
